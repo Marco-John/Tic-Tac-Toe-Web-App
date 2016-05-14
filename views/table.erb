@@ -1,7 +1,24 @@
-Player One has chosen <%=player_one_marker%>, So, Player Two is <%=player_two_marker%>.
-<br>
-This is the gameboard
-    <table id='board'; style="width:100px">
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tic Tic Toe App</title>
+        <style>
+        table, th, td {
+          border: 4px solid blue;
+          border-collapse: collapseth;
+          text-align: center;
+          }
+        </style>
+    </head>
+    <body>
+        Player One has chosen <%=player_one_marker%>, So, Player Two is <%=player_two_marker%>.
+        <br>
+        <br>
+        This is the gameboard.
+        <br>
+        <br>
+        <table id='board'; style="width:10%">
             <tr>
                 <td><%=board[0]%></td><td><%=board[1]%></td><td><%=board[2]%></td>
             </tr>
@@ -11,6 +28,7 @@ This is the gameboard
             <tr>
                 <td><%=board[6]%></td><td><%=board[7]%></td><td><%=board[8]%></td>
             </tr>
-     </table>
-
+        </table>
+    </body>
+</html>
 
