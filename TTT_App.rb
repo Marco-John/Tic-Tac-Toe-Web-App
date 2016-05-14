@@ -1,7 +1,4 @@
 require 'sinatra'
-#require_relative 'Tic_Tac_Toe_Functions.rb'
-#require_relative 'Simple_AI.rb'
-#require_relative 'SEQ_AI.rb'
 require_relative 'Play_TTT.rb'
 
 enable :sessions
